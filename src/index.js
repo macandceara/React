@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react';    // importaçao de blibiotecas
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css';      // importaçao do arquico src/css
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
