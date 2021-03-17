@@ -1,6 +1,4 @@
-import logo from "./logo_spotify.png";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,28 +11,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Home() {
   return (
-   
-   <Router>
-       <div> 
-        <nav className="App-header">
-        <img className="App-logo" src={logo} alt="Logo" />
-        <ul>
-          <a>|</a>
-          <Link to="/">Home</Link>
-          <a>|</a>
-          <Link to="/Faq">FAQ.S</Link>
-          <a>|</a>
-        </ul>
-      </nav>
-      <Switch>
-        <Route path="/Faq">
-          <Faq />
-        </Route>
-      </Switch>
-      
-      </div>
-   
-    
+       
 
       <div class="bandas">
         <div class="band01">
@@ -80,7 +57,7 @@ function Home() {
         </div>
    
     </div>
- </Router>
+
 
   );
 }

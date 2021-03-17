@@ -11,7 +11,7 @@ function Faq() {
             1) Como faço para postar um música no Spotify?
           </Accordion.Toggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="0">
+        <Accordion.Collapse eventKey="1">
           <Card.Body>
             Para colocar sua música no Spotify, você precisa trabalhar com um
             distribuidor ou com uma gravadora que já tenha um distribuidor. Eles
@@ -41,11 +41,11 @@ function Faq() {
       </Card>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="2">
+          <Accordion.Toggle as={Button} variant="link" eventKey="1">
             3) Como faço o login no Spotify para Artistas?
           </Accordion.Toggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="0">
+        <Accordion.Collapse eventKey="1">
           <Card.Body>
             Para fazer login no Spotify for Artists, primeiro você precisa
             acessar um perfil de artista. Confira Como obtenho acesso ao Spotify
