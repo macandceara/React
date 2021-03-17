@@ -23,7 +23,7 @@
 
 .bandas {
   display: grid;
-  grid-template-columns: 500px 500px 500px ;
+  grid-template-columns: 200px 200px 300px ;
   grid-gap: 350px;
   background-color: darkcyan;
   color: rgb(68, 66, 66);
