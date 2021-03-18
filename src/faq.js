@@ -7,7 +7,7 @@ function Faq() {
     <Accordion defaultActiveKey="0">
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+          <Accordion.Toggle as={Button} variant="link" eventKey="1">
             1) Como faço para postar um música no Spotify?
           </Accordion.Toggle>
         </Card.Header>

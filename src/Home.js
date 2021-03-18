@@ -15,7 +15,7 @@ function Home() {
 
       <div class="bandas">
         <div class="band01">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <img className="pinkfloyd" src={pinkfloyd} alt="pinkfloyd" />
             <Card.Body>
               <Card.Title>Pink Floyd</Card.Title>
@@ -29,7 +29,7 @@ function Home() {
         </div>
 
         <div class="band02">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <img className="beatles" src={beatles} alt="beatles" />
             <Card.Body>
               <Card.Title>Beatles</Card.Title>
@@ -43,7 +43,7 @@ function Home() {
         </div>
 
         <div class="band03">
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "30rem" }}>
             <img className="pinduca" src={pinduca} alt="pinduca" />
             <Card.Body>
               <Card.Title>Pinduca</Card.Title>
