@@ -1,5 +1,6 @@
 import logo from "./logo_spotify.png";
 
+
 function Rodape() {
   const date = new Date();
 
@@ -29,6 +30,8 @@ function Rodape() {
         <div>{date.toString()}</div>
       </div>
     </footer>
+
+   
   );
 }
 export default Rodape;

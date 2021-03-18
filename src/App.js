@@ -1,7 +1,7 @@
-import Rodape from "./Rodape";
-import Home from "./Home";
 import React from "react";
+import Home from "./Home";
 import Cabecalho from "./Cabecalho.js";
+import Rodape from "./Rodape";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Home />
       <Rodape />
     </div>
+    
   );
 }
 

@@ -25,12 +25,12 @@ function Faq() {
       </Card>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <Accordion.Toggle as={Button} variant="link" eventKey="2">
             2) Como eu verifico meu perfil de artista no Spotify? Fácil! Basta
             solicitar acesso ao Spotify para Artistas .
           </Accordion.Toggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="1">
+        <Accordion.Collapse eventKey="2">
           <Card.Body>
             Assim que sua solicitação for concedida, seu perfil de artista
             receberá a marca de verificação e você terá acesso a um painel de
@@ -41,11 +41,11 @@ function Faq() {
       </Card>
       <Card>
         <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <Accordion.Toggle as={Button} variant="link" eventKey="3">
             3) Como faço o login no Spotify para Artistas?
           </Accordion.Toggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="1">
+        <Accordion.Collapse eventKey="3">
           <Card.Body>
             Para fazer login no Spotify for Artists, primeiro você precisa
             acessar um perfil de artista. Confira Como obtenho acesso ao Spotify

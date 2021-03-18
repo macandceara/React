@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import pinkfloyd from "./pinkfloyd.jpg";
 import beatles from "./beatles.jpg";
 import pinduca from "./pinduca.jpg";
-import Faq from "./Faq";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
