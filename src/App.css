@@ -16,7 +16,7 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 100px 100px 100px 200px ;
+  grid-template-columns: 100px 100px 100px 200px;
   grid-gap: 100px;
   background-color: #515351;
   margin-bottom: 300px;
@@ -27,25 +27,23 @@
 
 .bandas {
   display: grid;
-  grid-template-columns: 300px 300px 300px ;
+  grid-template-columns: 300px 300px 300px;
   grid-gap: 400px;
   background-color: rgb(48, 46, 46);
   color: rgb(68, 66, 66);
   margin-top: 0em;
   font-family: cursive;
-  
 }
 
-a:link{
+a:link {
   font-family: cursive;
-  text-decoration:chocolate;
-  color:rgb(150, 145, 145);
-  }
- 
-.card-body{
+  text-decoration: chocolate;
+  color: rgb(150, 145, 145);
+}
 
+.card-body {
   background-color: rgb(56, 53, 53);
   font-family: cursive;
-  text-decoration:chocolate;
-  color:rgb(228, 216, 216);
+  text-decoration: chocolate;
+  color: rgb(228, 216, 216);
 }
