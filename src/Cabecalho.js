@@ -5,25 +5,20 @@ import Faq from "./Faq";
 
 function Cabecalho() {
   return (
-    <Router>
+    
       <div>
         <nav className="App-header">
           <img className="App-logo" src={logo} alt="Logo" />
           <ul>
             <a>|</a>
-            <Link to="/Home">Home</Link>
+            <Link to="/">Home</Link>
             <a>|</a>
             <Link to="/Faq">FAQ.S</Link>
             <a>|</a>
           </ul>
         </nav>
-        <Switch>
-          <Route path="/Faq">
-            <Faq />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    </div>
+    
   );
 }
 

@@ -16,13 +16,14 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 100px 100px 100px 200px;
+  grid-template-columns: 300px 300px 300px 300px;
   grid-gap: 100px;
   background-color: #515351;
   margin-bottom: 300px;
   margin-top: 0em;
   font-family: cursive;
   color: rgb(211, 198, 198);
+  text-align: center;
 }
 
 .bandas {

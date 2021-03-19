@@ -13,7 +13,7 @@ function Rodape() {
         <div class="coluna_a">
           <ul className="nav-footer">
             <li>
-              <a href="./faq.js">Entrar</a>
+              <a href="./faq.js">Faq</a>
             </li>
             <li>
               <a href="./equipe">Equipe</a>
@@ -23,7 +23,7 @@ function Rodape() {
         <div class="coluna_b">
           <ul className="nav-footer">
             <li>
-              <a href="./logo_sporify.png">Links</a>
+              <a href="http://Spotify.com">Link Spotify </a>
             </li>
           </ul>
         </div>
