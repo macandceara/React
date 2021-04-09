@@ -2,26 +2,34 @@ import React from "react";
 import Home from "./Home";
 import Cabecalho from "./Cabecalho.js";
 import Rodape from "./Rodape";
-import Faq from "./Faq"
+import Playlist from "./Playlist";
+import Login from "./login";
+import Faq from "./Faq";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-    <div className="App">
+      <div className="App">
+        <Cabecalho />
 
-      <Cabecalho />
-      <Switch>
+        <Switch>
           <Route path="/Faq">
             <Faq />
           </Route>
+           <Route path="/Playlist">
+            <Playlist />
+          </Route>
+          <Route path="/Login">
+            <Login />
+          </Route> 
           <Route path="/">
             <Home />
           </Route>
         </Switch>
 
-      <Rodape />
-    </div>
+        <Rodape />
+      </div>
     </Router>
   );
 }

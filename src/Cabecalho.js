@@ -15,6 +15,10 @@ function Cabecalho() {
             <a>|</a>
             <Link to="/Faq">FAQ.S</Link>
             <a>|</a>
+            <Link to="/Playlist">Playlist</Link>
+            <a>|</a>
+            <Link to="/Login">Login</Link>
+            <a>|</a>
           </ul>
         </nav>
     </div>

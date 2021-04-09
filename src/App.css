@@ -11,16 +11,16 @@
 }
 .App-header {
   background-color: #515351;
-  min-height: 20%;
+  min-height: 100000%;
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 150px 150px 150px 150px;
   grid-gap: 100px;
   background-color: #515351;
   margin-bottom: 300px;
-  margin-top: 0em;
+  margin-top: 10em;
   font-family: cursive;
   color: rgb(211, 198, 198);
   text-align: center;
