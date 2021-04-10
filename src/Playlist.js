@@ -11,7 +11,7 @@ function Playlist() {
       return (
         <div class="band01">
         <Card style={{ width: "20rem" }}>
-          <img className="{playlist.nome}" src={playlist.capa} alt="capa" />
+          <img className="playlist.nome" src={playlist.capa} alt="capa" />
           <Card.Body>
             <Card.Title>{playlist.nome}</Card.Title>
             <Card.Text> 
