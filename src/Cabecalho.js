@@ -19,6 +19,8 @@ function Cabecalho() {
             <a>|</a>
             <Link to="/Login">Login</Link>
             <a>|</a>
+            <Link to="/listamusica">Player</Link>
+            <a>|</a>
           </ul>
         </nav>
     </div>

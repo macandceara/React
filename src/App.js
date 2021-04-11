@@ -6,6 +6,8 @@ import Playlist from "./Playlist";
 import Login from "./login";
 import Faq from "./Faq";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Listamusica from "./listamusica.js";
+
 
 function App() {
   return (
@@ -23,10 +25,13 @@ function App() {
           <Route path="/Login">
             <Login />
           </Route> 
+          <Route path= "/listamusica">
+              <Listamusica />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
-        </Switch>
+         </Switch>
 
         <Rodape />
       </div>

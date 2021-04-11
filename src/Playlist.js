@@ -19,7 +19,7 @@ function Playlist() {
           <Card.Img variant="top" src={playlist.capa}/>
           <Card.Body>
             <Card.Title>{playlist.nome}</Card.Title>
-            <a href={playlist.musica} class="btn btn-primary">Escute Agora</a>
+            <a href= "./listamusica" class="btn btn-primary">Escute Agora</a>
           </Card.Body>
         </Card>
         </div>
@@ -37,5 +37,6 @@ function Playlist() {
   
   }
   export default Playlist;
+
   
   

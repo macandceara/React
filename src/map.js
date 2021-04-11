@@ -7,12 +7,13 @@ import capakiss from "./kiss.png"
 import capafrank from "./franksinatra.png"
 import capaqueen from "./queen.png"
 import teste from "./pinkfloyd.png"
+import p1 from "./pinduca/1.mp3"
 
 
 
 const playlists = [
-    { id: 1, nome: 'Pink Floyd', capa: 'pinkfloyd.png', musicas: [ {teste}] },
-    { id: 2, nome: 'Pinduca', capa: {capapinduca}, musicas: [ {teste}] },
+    { id: 1, nome: 'Pink Floyd', capa: {pinkfloyd}, musicas: [ {teste}] },
+    { id: 2, nome: 'Pinduca', capa: {capapinduca}, musicaspinduca: [ {p1}] },
     { id: 3, nome: 'Beatles', capa: {capabeatles}, musicas: [ {teste}] },
     { id: 4, nome: 'Iron Maiden', capa: {capairon}, musicas: [ {teste}] },
     { id: 5, nome: 'Led Zepellin', capa: {capaled}, musicas: [ {teste}] },
@@ -22,4 +23,4 @@ const playlists = [
       ]
     
 
- export default playlists     
+export default playlists;     
