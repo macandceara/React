@@ -1,35 +1,40 @@
 import "./App.css";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import playlists from "./map.js";
 
+
+
+
 function Playlist() {
-    const card = playlists.map (function (playlist) {
+      
+     const card = playlists.map (function (playlist) {
       
       return (
-        <div class="band01">
-        <Card style={{ width: "20rem" }}>
-          <img className="playlist.nome" src={playlist.capa} alt="capa" />
+            
+        <div class="capas">
+        
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={playlist.capa}/>
           <Card.Body>
             <Card.Title>{playlist.nome}</Card.Title>
-            <Card.Text> 
-              {playlist.descricao}
-            </Card.Text>
-            <Button variant="primary">Escute Agora</Button>
+            <a href={playlist.musica} class="btn btn-primary">Escute Agora</a>
           </Card.Body>
         </Card>
-      </div>
+        </div>
+
 
       ) 
+     
     })
         return (
-        <div class="bandas">
+        <div class="capas">
         {card}  
         </div>
-     
+        
     );
+  
   }
   export default Playlist;
   

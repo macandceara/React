@@ -20,31 +20,54 @@
   grid-gap: 100px;
   background-color: #515351;
   margin-bottom: 300px;
-  margin-top: 10em;
+  margin-top: 0em;
   font-family: cursive;
   color: rgb(211, 198, 198);
   text-align: center;
 }
 
-.bandas {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 400px;
-  background-color: rgb(48, 46, 46);
-  color: rgb(68, 66, 66);
-  margin-top: 0em;
-  font-family: cursive;
-}
 
 a:link {
   font-family: cursive;
   text-decoration: chocolate;
   color: rgb(150, 145, 145);
+  font-size: larger;
 }
 
-.card-body {
+.cards-body {
   background-color: rgb(56, 53, 53);
   font-family: cursive;
   text-decoration: chocolate;
   color: rgb(228, 216, 216);
+}
+
+
+
+.capas {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 50px;
+  background-color: #363b36;
+  margin-top: 0em;
+  align-items: center;
+}
+
+.Texto_Central{
+  background-color: #eee;
+  color: rgb(239, 245, 244);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align:inherit;
+  outline: none;
+  font-size: 35px;
+  transition: 0.4s;
+}
+
+.formulario {
+align-content: center;
+
+
+
 }
