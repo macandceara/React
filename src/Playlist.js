@@ -19,9 +19,10 @@ function Playlist() {
           <Card.Img variant="top" src={playlist.capa}/>
           <Card.Body>
             <Card.Title>{playlist.nome}</Card.Title>
-            <a href= "./listamusica" class="btn btn-primary">Escute Agora</a>
+            <a href= {playlist.musicas}class="btn btn-primary">Escute Agora</a>
           </Card.Body>
         </Card>
+        
         </div>
 
 

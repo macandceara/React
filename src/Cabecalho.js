@@ -1,7 +1,7 @@
 import logo from "./logo_spotify.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import React from "react";
-import Faq from "./Faq";
+
 
 function Cabecalho() {
   return (
@@ -17,9 +17,9 @@ function Cabecalho() {
             <a>|</a>
             <Link to="/Playlist">Playlist</Link>
             <a>|</a>
-            <Link to="/Login">Login</Link>
+            <Link to="/Inscrever-se">Inscrever-se</Link>
             <a>|</a>
-            <Link to="/listamusica">Player</Link>
+            <Link to="/Entrar">Entrar</Link>
             <a>|</a>
           </ul>
         </nav>

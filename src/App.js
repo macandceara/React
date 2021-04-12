@@ -3,10 +3,10 @@ import Home from "./Home";
 import Cabecalho from "./Cabecalho.js";
 import Rodape from "./Rodape";
 import Playlist from "./Playlist";
-import Login from "./login";
+import Inscrever from "./Inscrever";
 import Faq from "./Faq";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Listamusica from "./listamusica.js";
+import Entrar from "./Entrar.js";
 
 
 function App() {
@@ -22,11 +22,11 @@ function App() {
            <Route path="/Playlist">
             <Playlist />
           </Route>
-          <Route path="/Login">
-            <Login />
+          <Route path="/Inscrever-se">
+            <Inscrever />
           </Route> 
-          <Route path= "/listamusica">
-              <Listamusica />
+          <Route path= "/Entrar">
+              <Entrar />
           </Route>
           <Route path="/">
             <Home />
