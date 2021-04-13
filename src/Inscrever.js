@@ -4,10 +4,6 @@ import Form from "react-bootstrap/form";
 import Badge from "react-bootstrap/Form";
 import "./App.css";
 
-
-
-
-
 function Inscrever() {
   return (
     <div class="formulario">
@@ -45,20 +41,12 @@ function Inscrever() {
           ))}
         </Form>
       </Form>
-        <div className="increva-se">
+      <div className="increva-se">
         <Badge pill variant="Inscreva-se">
           <h3>Inscreva-se</h3>
         </Badge>
       </div>
-    
-     </div>
-
-
-
-
-
-
-
+    </div>
   );
 }
 export default Inscrever;

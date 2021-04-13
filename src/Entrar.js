@@ -1,8 +1,4 @@
-function Entrar() { 
-    return (  
-    "teste"
- 
-   );
- 
- }
- export default Entrar;
+function Entrar() {
+  return "teste";
+}
+export default Entrar;
