@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "./logo_spotify.png";
 import Form from "react-bootstrap/form";
 import Badge from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import "./App.css";
 
 function Inscrever() {
@@ -39,13 +40,13 @@ function Inscrever() {
               />
             </div>
           ))}
+          <Button variant="success" size="lg" Inscrever-se>
         </Form>
       </Form>
-      <div className="increva-se">
-        <Badge pill variant="Inscreva-se">
-          <h3>Inscreva-se</h3>
-        </Badge>
-      </div>
+      
+      Inscrever-se
+    </Button>
+     
     </div>
   );
 }

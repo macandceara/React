@@ -45,7 +45,7 @@ a:link {
 
 .capas {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 550px 550px 550px 550px ;
   grid-gap: 50px;
   background-color: #363b36;
   margin-top: 0em;

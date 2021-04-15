@@ -15,6 +15,7 @@ function Playlist() {
             <a href={playlist.musicas} class="btn btn-primary">
               Escute Agora
             </a>
+            
           </Card.Body>
         </Card>
       </div>
