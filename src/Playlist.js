@@ -1,10 +1,23 @@
 import "./App.css";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React from "react";
-import playlists from "./map.js";
+import React,{useState, useEffect} from "react";   // importaçao useState
+import axios from "axios";
+//Import playlists from "./map.js";
+
 
 function Playlist() {
+  const [playlists, setPlaylists] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:3001/playlist")
+      .then(res => {
+        const p = res.data;
+        setPlaylists(p);
+      })
+
+
+  });
   const card = playlists.map(function (playlist) {
     return (
       <div class="capas">
