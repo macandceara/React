@@ -45,7 +45,7 @@ a:link {
 
 .capas {
   display: grid;
-  grid-template-columns: 550px 550px 550px 550px ;
+  grid-template-columns: 550px 550px 550px  ;
   grid-gap: 50px;
   background-color: #363b36;
   margin-top: 0em;
@@ -65,10 +65,67 @@ a:link {
   transition: 0.4s;
 }
 
-.formulario {
-align-content: center;
-background-color: rgb(136, 122, 122);
-
-
-
+.form-cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
 }
+
+.form-cadastro label{
+  color: rgb(48, 231, 57);
+  font-family: cursive;
+  font-size: larger;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+
+.form-cadastro input{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #121413;
+  padding: 0 10px;
+  background-color: rgb(224, 220, 220);
+  color: black;
+  margin: 0 40px;
+}
+
+.form h1{
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 30px;
+}
+
+.form{
+  display: grid;
+  background-color:  rgb(212, 197, 197);
+  width: 400px;
+  margin-left: 480px;
+}
+
+.input{
+  width: 300px;
+  height: 30px;
+  border: none;
+}
+.fundo-form{
+  background-color: rgba(131, 125, 125, 0.1);
+}
+
+.button.form-btn{
+  background-color: green;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  border: 0 none;
+  color: white;
+  font-weight: 800;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+
+

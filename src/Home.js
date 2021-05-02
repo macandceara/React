@@ -15,7 +15,7 @@ function Home() {
             Ouça seus artistas favoritos em qualquer lugar. Depois, R$
             16,90/mês. Termos e Condições. Curadoria de playlists. +50 milhões
             de músicas. Podcasts exclusivos. Sem limite de pulos. Cancele quando
-            quiser. Descoberta de músicas.
+            quiser. Descoberta de músicas. 
           </Card.Text>
         </Card.ImgOverlay>
       </Card>

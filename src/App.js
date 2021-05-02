@@ -6,7 +6,7 @@ import Playlist from "./Playlist";
 import Inscrever from "./Inscrever";
 import Faq from "./Faq";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Entrar from "./Entrar.js";
+import Login from "./Login.js";
 
 
 function App() {
@@ -19,14 +19,14 @@ function App() {
           <Route path="/Faq">
             <Faq />
           </Route>
-           <Route path="/Playlist">
+           <Route path="/Playlist/">
             <Playlist />
           </Route>
           <Route path="/Inscrever-se">
             <Inscrever />
           </Route> 
-          <Route path= "/Entrar">
-              <Entrar />
+          <Route path= "/Login">
+              <Login />
           </Route>
           <Route path="/">
             <Home />

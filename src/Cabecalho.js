@@ -19,7 +19,7 @@ function Cabecalho() {
             <a>|</a>
             <Link to="/Inscrever-se">Inscrever-se</Link>
             <a>|</a>
-            <Link to="/Entrar">Entrar</Link>
+            <Link to="/Login">Login</Link>
             <a>|</a>
           </ul>
         </nav>

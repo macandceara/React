@@ -1,13 +1,57 @@
 {
     "playlist" : [
-        { "id": 1, "nome": "Pink Floyd", "capa": "/imagens/pinkfloyd.png", "musicas": "/musicas/pink1.mp3" },
-        { "id": 2, "nome": "Pinduca", "capa": "/imagens/pinduca.jpg", "musicas": "/musicas/pinduca1.mp3" },
-        { "id": 3, "nome": "Beatles", "capa": "/imagens/beatles.png", "musicas": "/musicas/beatles.mp3" },
-        { "id": 4, "nome": "Iron Maiden", "capa": "/imagens/ironmaiden.png", "musicas": "/musicas/iron.mp3"},
-        { "id": 5, "nome": "Led Zepellin", "capa": "/imagens/ledzepellin.png", "musicas": "/musicas/???" },
-        { "id": 6, "nome": "Kiss", "capa": "/imagens/kiss.png", "musicas": "/musicas/kiss.mp3" },
-        { "id": 7, "nome": "Frank Sinatra", "capa": "/imagens/franksinatra.png", "musicas": "/musicas/???" },
-        { "id": 8, "nome": "Queen", "capa": "/imagens/queen.png", "musicas": "/musicas/???" }
+        { 
+          "id": 1, 
+          "nome": "Pink Floyd", 
+          "capa": "/imagens/pinkfloyd.png", 
+          "musicas": "/musicas/pink1.mp3"
+         },
+        { 
+          "id": 2, 
+          "nome": "Pinduca", 
+          "capa": "/imagens/pinduca.jpg", 
+          "musicas": "/musicas/pinduca1.mp3" 
+        },
+        { 
+          "id": 3, 
+          "nome": "Beatles", 
+          "capa": "/imagens/beatles.png", 
+          "musicas": "/musicas/beatles.mp3" 
+        },
+        { 
+          "id": 4, 
+          "nome": "Iron Maiden", 
+          "capa": "/imagens/ironmaiden.png", 
+          "musicas": "/musicas/iron.mp3"
+        },
+        { "id": 5, 
+          "nome": "Led Zepellin", 
+          "capa": "/imagens/ledzepellin.png", 
+          "musicas": "/musicas/???" 
+        },
+        { 
+          "id": 6, 
+          "nome": "Kiss", 
+          "capa": "/imagens/kiss.png", 
+          "musicas": "/musicas/kiss.mp3" 
+        },
+        { 
+          "id": 7, 
+          "nome": "Frank Sinatra", 
+          "capa": "/imagens/franksinatra.png", 
+          "musicas": "/musicas/fly.mp3.mp3" },
+
+        { 
+          "id": 8, 
+          "nome": "Queen", 
+          "capa": "/imagens/queen.png", 
+          "musicas": "/musicas/queen.mp3.mp3" },
+
+          { 
+            "id": 9, 
+            "nome": "Brasas do Forro", 
+            "capa": "/imagens/Brasas.jpg", 
+            "musicas": "/musicas/???" }
         
       ]
 }
