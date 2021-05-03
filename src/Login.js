@@ -1,7 +1,5 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
-import { VscAccount } from "react-icons/vsc";
-import { MdLock } from "react-icons/md";
 import "./App.css";
 
 const initialState = {
@@ -58,7 +56,7 @@ class Login extends React.Component {
         <Paper className="login-form">
           <h1 className="login-titulo">Login</h1>
           <div className="user-input">
-            <VscAccount />
+         
             <input
               required
               id="email"
@@ -72,7 +70,7 @@ class Login extends React.Component {
           <div className="error">{this.state.emailError}</div>
 
           <div className="senha-input">
-            <MdLock />
+         
             <input
               required
               id="senha"
